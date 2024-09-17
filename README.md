@@ -13,9 +13,6 @@ The dataset features 19,382 rows and 12 columns. Each row represents one user's 
 - [Usage](#usage)
 - [Data](#data)
 - [Analysis and Results](#analysis-and-results)
-- [Contributing](#contributing)
-- [License](#license)
-- [Contact](#contact)
 
 ## Project overview
 
