@@ -9,7 +9,6 @@ The dataset features 19,382 rows and 12 columns. Each row represents one user's 
 ## Table of contents
 - [Project Overview](#project-overview)
 - [Installation](#installation)
-- [Project Structure](#project-structure)
 - [Usage](#usage)
 - [Data](#data)
 - [Analysis and Results](#analysis-and-results)
@@ -29,31 +28,6 @@ To start, clone the repository and install the required dependencies.
 git clone https://github.com/alejandra-sofia-dbb/tiktok-engagement-analysis.git
 cd tiktok-engagement-analysis
 pip install -r requirements.txt
-
-## Project structure
-
-tiktok-engagement-analysis/
-│
-├── data/                   # Raw and processed data
-│   ├── raw/                # Raw data files
-│   └── processed/          # Processed data files used for modeling
-│
-├── notebooks/              # Jupyter notebooks for EDA and modeling
-│   ├── unsupervised_learning_eda.ipynb  # EDA and feature exploration notebook
-│   └── other_notebooks.ipynb            # Additional analysis notebooks
-│
-├── scripts/                # Python scripts for processing and modeling
-│   ├── data_processing.py  # Scripts for data cleaning and preprocessing
-│   └── modeling.py         # Scripts for training and evaluating models
-│
-├── results/                # Output files and figures
-│   ├── figures/            # Plots and figures generated during analysis
-│   └── model_outputs/      # Model outputs and evaluation results
-│
-├── requirements.txt        # Python dependencies
-├── README.md               # Project README
-└── .gitignore              # Files and directories to ignore in Git
-
 
 ## Usage
 
