@@ -2,7 +2,7 @@
 
 This project aims to analyze and compare the net engagement of TikTok videos that are moderated versus unmoderated. The goal is to identify the relationship between user engagement and moderatable content. Based on engagement patterns, the project will also develop predictive models to determine whether content is likely to be moderated. 
 
-The concept of moderating based on engagement patterns provides an interesting route to safety strategies. A Random Forest Classifier model has been chosen as it's great for handling non-linear relationships and will provide important feature scores. The results will explore whether certain engagement metrics, sentiment scores, or video lengths are the most influencial. Also, we will look into the relationship between engagement and moderated content. Are there patterns of engagement with said content? 
+The concept of moderating based on engagement patterns provides an interesting route to safety strategies. 
 
 The dataset features 19,382 rows and 12 columns. Each row represents one user's report, offering insights into the reported content.
 
