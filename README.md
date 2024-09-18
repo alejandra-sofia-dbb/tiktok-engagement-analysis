@@ -1,6 +1,6 @@
 # TikTok engagement analysis
 
-This project aims to analyze and compare the net engagement of TikTok videos that are moderated versus unmoderated. The goal is to identify the relationship between user engagement and moderatable content. Based on engagement patterns, the project will also develop predictive models to determine whether content is likely to be moderated. 
+This project aims to analyse and compare the net engagement of TikTok videos that are moderated versus unmoderated. The goal is to identify the relationship between user engagement and moderatable content. Based on engagement patterns, the project will also develop predictive models to determine whether content is likely to be moderated. 
 
 The concept of moderating based on engagement patterns provides an interesting route to safety strategies. 
 
