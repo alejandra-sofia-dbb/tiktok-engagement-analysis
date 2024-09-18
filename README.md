@@ -28,29 +28,29 @@ To start, clone the repository and install the required dependencies.
 git clone https://github.com/alejandra-sofia-dbb/tiktok-engagement-analysis.git
 cd tiktok-engagement-analysis
 pip install -r requirements.txt
-```markdown
+```
 
 ## Usage
 
-To explore the data, open the main EDA notebook:
-jupyter notebook notebooks/unsupervised_learning_eda.ipynb
+To explore the data, open the main EDA notebook: ```bash
+jupyter notebook notebooks/unsupervised_learning_eda.ipynb```
 
 This notebook contains steps for data cleaning, visualization, and feature analysis, including calculations of engagement metrics.
 
 ## Running the scripts
 
 Scripts for data processing and modeling can be executed from the command line:
-python scripts/data_processing.py
+```bashpython scripts/data_processing.py
 python scripts/modeling.py
-
+```
 ## Data
 
 Source: The dataset was sourced from Kaggle.
-Description: The dataset includes metrics such as video views, likes, shares, comments, and the moderation status of videos.
+Description: The dataset includes metrics such as video views, likes, shares, comments, downloads and the moderation status of videos.
 
 ## Analysis and results
 
-The analysis compares engagement metrics between moderated and unmoderated videos, revealing patterns that suggest why some content gets moderated.
+The analysis compares engagement scores between moderated and unmoderated videos, revealing patterns that suggest why some content gets moderated.
 Predictive models were developed to determine the likelihood of content being moderated based on engagement patterns.
 Key findings and model performance metrics are documented in the notebooks/unsupervised_learning_eda.ipynb notebook and the results/ folder.
 
