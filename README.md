@@ -1,6 +1,8 @@
 # TikTok engagement analysis
 
-This project aims to analyse and compare the net engagement of TikTok videos that are moderated versus unmoderated, using supervised learning techniques to build classification models. The primary goal is to identify patterns in user engagement that correlate with content moderation and to predict whether a piece of content is likely to be moderated based on its engagement metrics. Moderation based on engagement patterns could contribute to more proactive and scalable content moderation strategies, making it easier for content moderators to prioritise the content they look at, ultimately making platforms safer for users.
+This project aims to analyse and compare the net engagement of TikTok videos that are moderated versus unmoderated, using supervised learning techniques to build classification models. The primary goal is to identify patterns between engagement scores and content moderation, to predict whether a piece of content is likely to be moderated based on its engagement metrics. Moderation based on engagement scores could contribute to more proactive and scalable content moderation strategies, making it easier for content moderators to prioritise the content they look at, ultimately making platforms safer for users.
+
+Though usually the industry prioritises other metrics such as transcripts and language analysis for such purposes, viewing the problem from this angle could potentially uncover interesting and valuable data about how people behave when faced with content that should be moderated. This could help enhance moderation workflows and improve content safety on platforms like TikTok.
 
 The dataset consists of 19,382 rows and 12 columns, where each row represents a user-reported video. The data is sourced from Kaggle, and includes features such as claim status (whether the video contains a claim or an opinion), video view count, like count, share count, comment count, and ban status (whether the author of the video was banned or not). The dataset is well-suited for this task as it provides a range of engagement metrics that are hypothesized to correlate with moderation.
 
@@ -9,7 +11,6 @@ The dataset contains a mixture of numerical and categorical features:
 Numerical features: video view count, like count, share count, download count, and comment count.
 Categorical features: claim status, verified status, author ban status.
 Data size: approximately 1.8MB in CSV format.
-This project applies classification techniques to predict whether a video will be moderated (i.e., banned or escalated for review) based on the engagement metrics. By understanding the relationship between engagement and moderation, the project aims to enhance moderation workflows and improve content safety on platforms like TikTok.
 
 The full dataset description and download link are available on Kaggle (https://www.kaggle.com/datasets/raminhuseyn/dataset-from-tiktok).
 
