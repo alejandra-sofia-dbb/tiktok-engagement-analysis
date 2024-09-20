@@ -1,10 +1,17 @@
 # TikTok engagement analysis
 
-This project aims to analyse and compare the net engagement of TikTok videos that are moderated versus unmoderated. The goal is to identify the relationship between user engagement and moderatable content. Based on engagement patterns, the project will also develop predictive models to determine whether content is likely to be moderated. 
+This project aims to analyze and compare the net engagement of TikTok videos that are moderated versus unmoderated, using supervised learning techniques to build classification models. The primary goal is to identify patterns in user engagement that correlate with content moderation and to predict whether a piece of content is likely to be moderated based on its engagement metrics. Moderation based on engagement patterns could contribute to more proactive and scalable content moderation strategies, making platforms safer for users.
 
-The concept of moderating based on engagement patterns provides an interesting route to safety strategies. 
+The dataset consists of 19,382 rows and 12 columns, where each row represents a user-reported video. The data is sourced from Kaggle, and includes features such as claim status (whether the video contains a claim or an opinion), video view count, like count, share count, comment count, and ban status (whether the author of the video was banned or not). The dataset is well-suited for this task as it provides a range of engagement metrics that are hypothesized to correlate with moderation.
 
-The dataset features 19,382 rows and 12 columns. Each row represents one user's report, offering insights into the reported content.
+The dataset contains a mixture of numerical and categorical features:
+
+Numerical features: video view count, like count, share count, download count, and comment count.
+Categorical features: claim status, verified status, author ban status.
+Data size: approximately 1.8MB in CSV format.
+This project applies classification techniques to predict whether a video will be moderated (i.e., banned or escalated for review) based on the engagement metrics. By understanding the relationship between engagement and moderation, the project aims to enhance moderation workflows and improve content safety on platforms like TikTok.
+
+The full dataset description and download link are available on Kaggle (https://www.kaggle.com/datasets/raminhuseyn/dataset-from-tiktok).
 
 ## Table of contents
 - [Project Overview](#project-overview)
