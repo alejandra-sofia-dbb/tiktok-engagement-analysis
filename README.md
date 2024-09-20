@@ -16,8 +16,6 @@ The full dataset description and download link are available on Kaggle (https://
 ## Table of contents
 - [Project Overview](#project-overview)
 - [Installation](#installation)
-- [Usage](#usage)
-- [Data](#data)
 - [Analysis and Results](#analysis-and-results)
 
 ## Project overview
@@ -44,22 +42,14 @@ jupyter notebook notebooks/unsupervised_learning_eda.ipynb```
 
 This notebook contains steps for data cleaning, visualization, and feature analysis, including calculations of engagement metrics.
 
-## Running the scripts
-
-Scripts for data processing and modeling can be executed from the command line:
-```bashpython scripts/data_processing.py
-python scripts/modeling.py
-```
-## Data
-
-Source: The dataset was sourced from Kaggle.
-Description: The dataset includes metrics such as video views, likes, shares, comments, downloads and the moderation status of videos.
 
 ## Analysis and results
 
 The analysis compares engagement scores between moderated and unmoderated videos, revealing patterns that suggest why some content gets moderated.
 Predictive models were developed to determine the likelihood of content being moderated based on engagement patterns.
 Key findings and model performance metrics are documented in the notebooks/unsupervised_learning_eda.ipynb notebook and the results/ folder.
+
+For full discussion and background, refer to the notebooks.
 
 
 
